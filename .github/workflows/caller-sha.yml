@@ -1,0 +1,8 @@
+name: caller-sha
+
+on:
+  workflow_dispatch:
+
+jobs:
+  cross-repo-callee-by-tag-sha-inner:
+    uses: festum/tag-ruleset-poc/.github/workflows/inner-sha.yml@pin-test-3
