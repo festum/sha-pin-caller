@@ -1,0 +1,8 @@
+name: caller
+
+on:
+  workflow_dispatch:
+
+jobs:
+  cross-repo-callee-by-tag:
+    uses: festum/tag-ruleset-poc/.github/workflows/inner.yml@pin-test-2
